@@ -22,5 +22,10 @@ WinTratamientoProyect
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:WinTratamientoProyect.My.Resources.Resources.dcf71b64726c50c3c6df01c9ee6472dd">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>
