@@ -1,0 +1,13 @@
+c:\users\jesus\documents\visual studio 2015\Projects\WinTratamientoProyect\WinTratamientoProyect\bin\Debug\WinTratamientoProyect.exe.config
+c:\users\jesus\documents\visual studio 2015\Projects\WinTratamientoProyect\WinTratamientoProyect\bin\Debug\WinTratamientoProyect.exe
+c:\users\jesus\documents\visual studio 2015\Projects\WinTratamientoProyect\WinTratamientoProyect\bin\Debug\WinTratamientoProyect.pdb
+c:\users\jesus\documents\visual studio 2015\Projects\WinTratamientoProyect\WinTratamientoProyect\bin\Debug\WinTratamientoProyect.xml
+c:\users\jesus\documents\visual studio 2015\Projects\WinTratamientoProyect\WinTratamientoProyect\obj\Debug\WinTratamientoProyect.vbprojResolveAssemblyReference.cache
+c:\users\jesus\documents\visual studio 2015\Projects\WinTratamientoProyect\WinTratamientoProyect\obj\Debug\WinTratamientoProyect.Form1.resources
+c:\users\jesus\documents\visual studio 2015\Projects\WinTratamientoProyect\WinTratamientoProyect\obj\Debug\WinTratamientoProyect.Resources.resources
+c:\users\jesus\documents\visual studio 2015\Projects\WinTratamientoProyect\WinTratamientoProyect\obj\Debug\WinTratamientoProyect.vbproj.GenerateResource.Cache
+c:\users\jesus\documents\visual studio 2015\Projects\WinTratamientoProyect\WinTratamientoProyect\obj\Debug\WinTratamientoProyect.exe
+c:\users\jesus\documents\visual studio 2015\Projects\WinTratamientoProyect\WinTratamientoProyect\obj\Debug\WinTratamientoProyect.xml
+c:\users\jesus\documents\visual studio 2015\Projects\WinTratamientoProyect\WinTratamientoProyect\obj\Debug\WinTratamientoProyect.pdb
+c:\users\jesus\documents\visual studio 2015\Projects\WinTratamientoProyect\WinTratamientoProyect\obj\Debug\WinTratamientoProyect.Form2.resources
+c:\users\jesus\documents\visual studio 2015\Projects\WinTratamientoProyect\WinTratamientoProyect\obj\Debug\WinTratamientoProyect.Form3.resources
