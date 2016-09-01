@@ -29,7 +29,7 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.NumericUpDownEdad = New System.Windows.Forms.NumericUpDown()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePickerEntrada = New System.Windows.Forms.DateTimePicker()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.MaskedTextBox1 = New System.Windows.Forms.MaskedTextBox()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -38,6 +38,8 @@ Partial Class Form1
         Me.RadioButtonHomb = New System.Windows.Forms.RadioButton()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.DateTimePickerSalida = New System.Windows.Forms.DateTimePicker()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.btnDesarrolladores = New System.Windows.Forms.Button()
@@ -53,6 +55,7 @@ Partial Class Form1
         '
         'btncomenzar
         '
+        Me.btncomenzar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
         Me.btncomenzar.Font = New System.Drawing.Font("Ebrima", 8.25!)
         Me.btncomenzar.Location = New System.Drawing.Point(155, 300)
         Me.btncomenzar.Name = "btncomenzar"
@@ -72,6 +75,7 @@ Partial Class Form1
         '
         'TextBoxNombre
         '
+        Me.TextBoxNombre.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(188, Byte), Integer), CType(CType(212, Byte), Integer))
         Me.TextBoxNombre.Location = New System.Drawing.Point(6, 35)
         Me.TextBoxNombre.MaxLength = 20
         Me.TextBoxNombre.Name = "TextBoxNombre"
@@ -89,10 +93,14 @@ Partial Class Form1
         '
         'NumericUpDownEdad
         '
+        Me.NumericUpDownEdad.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(188, Byte), Integer), CType(CType(212, Byte), Integer))
+        Me.NumericUpDownEdad.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.NumericUpDownEdad.Location = New System.Drawing.Point(6, 104)
+        Me.NumericUpDownEdad.Minimum = New Decimal(New Integer() {18, 0, 0, 0})
         Me.NumericUpDownEdad.Name = "NumericUpDownEdad"
         Me.NumericUpDownEdad.Size = New System.Drawing.Size(84, 20)
         Me.NumericUpDownEdad.TabIndex = 8
+        Me.NumericUpDownEdad.Value = New Decimal(New Integer() {18, 0, 0, 0})
         '
         'Label2
         '
@@ -103,28 +111,29 @@ Partial Class Form1
         Me.Label2.TabIndex = 9
         Me.Label2.Text = "3. Fecha De Internacion"
         '
-        'DateTimePicker1
+        'DateTimePickerEntrada
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(6, 35)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(145, 20)
-        Me.DateTimePicker1.TabIndex = 10
+        Me.DateTimePickerEntrada.CalendarMonthBackground = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(188, Byte), Integer), CType(CType(212, Byte), Integer))
+        Me.DateTimePickerEntrada.Location = New System.Drawing.Point(6, 35)
+        Me.DateTimePickerEntrada.Name = "DateTimePickerEntrada"
+        Me.DateTimePickerEntrada.Size = New System.Drawing.Size(145, 20)
+        Me.DateTimePickerEntrada.TabIndex = 10
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(3, 73)
+        Me.Label3.Location = New System.Drawing.Point(6, 124)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(151, 13)
         Me.Label3.TabIndex = 11
-        Me.Label3.Text = "4. Requerimos de Su Telefono"
+        Me.Label3.Text = "5. Requerimos de Su Telefono"
         '
         'MaskedTextBox1
         '
-        Me.MaskedTextBox1.BackColor = System.Drawing.Color.Lavender
-        Me.MaskedTextBox1.Location = New System.Drawing.Point(6, 104)
+        Me.MaskedTextBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(188, Byte), Integer), CType(CType(212, Byte), Integer))
+        Me.MaskedTextBox1.Location = New System.Drawing.Point(9, 143)
         Me.MaskedTextBox1.Name = "MaskedTextBox1"
-        Me.MaskedTextBox1.Size = New System.Drawing.Size(145, 20)
+        Me.MaskedTextBox1.Size = New System.Drawing.Size(142, 20)
         Me.MaskedTextBox1.TabIndex = 12
         '
         'Label4
@@ -134,11 +143,11 @@ Partial Class Form1
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(118, 13)
         Me.Label4.TabIndex = 13
-        Me.Label4.Text = "6. Requerimos Su Sexo"
+        Me.Label4.Text = "7. Requerimos Su Sexo"
         '
         'GroupBoxSexo
         '
-        Me.GroupBoxSexo.BackColor = System.Drawing.Color.Lavender
+        Me.GroupBoxSexo.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(188, Byte), Integer), CType(CType(212, Byte), Integer))
         Me.GroupBoxSexo.Controls.Add(Me.RadioButtonMuj)
         Me.GroupBoxSexo.Controls.Add(Me.RadioButtonHomb)
         Me.GroupBoxSexo.Location = New System.Drawing.Point(245, 24)
@@ -172,31 +181,50 @@ Partial Class Form1
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(140, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
         Me.Panel1.Controls.Add(Me.Label5)
         Me.Panel1.Controls.Add(Me.TextBoxNombre)
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Controls.Add(Me.NumericUpDownEdad)
         Me.Panel1.Location = New System.Drawing.Point(12, 12)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(167, 137)
+        Me.Panel1.Size = New System.Drawing.Size(183, 153)
         Me.Panel1.TabIndex = 15
         '
         'Panel2
         '
-        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(140, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
+        Me.Panel2.Controls.Add(Me.DateTimePickerSalida)
+        Me.Panel2.Controls.Add(Me.Label7)
         Me.Panel2.Controls.Add(Me.Label2)
-        Me.Panel2.Controls.Add(Me.DateTimePicker1)
+        Me.Panel2.Controls.Add(Me.DateTimePickerEntrada)
         Me.Panel2.Controls.Add(Me.Label3)
         Me.Panel2.Controls.Add(Me.MaskedTextBox1)
         Me.Panel2.Location = New System.Drawing.Point(210, 12)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(162, 137)
+        Me.Panel2.Size = New System.Drawing.Size(162, 174)
         Me.Panel2.TabIndex = 16
+        '
+        'DateTimePickerSalida
+        '
+        Me.DateTimePickerSalida.CalendarMonthBackground = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(188, Byte), Integer), CType(CType(212, Byte), Integer))
+        Me.DateTimePickerSalida.Location = New System.Drawing.Point(9, 89)
+        Me.DateTimePickerSalida.Name = "DateTimePickerSalida"
+        Me.DateTimePickerSalida.Size = New System.Drawing.Size(142, 20)
+        Me.DateTimePickerSalida.TabIndex = 14
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(6, 72)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(96, 13)
+        Me.Label7.TabIndex = 13
+        Me.Label7.Text = "4. Fecha de Salida"
         '
         'Panel3
         '
-        Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(140, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
         Me.Panel3.Controls.Add(Me.Panel4)
         Me.Panel3.Controls.Add(Me.ComboBoxTratamientos)
         Me.Panel3.Controls.Add(Me.Label6)
@@ -209,7 +237,7 @@ Partial Class Form1
         '
         'Panel4
         '
-        Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(207, Byte), Integer), CType(CType(216, Byte), Integer), CType(CType(220, Byte), Integer))
+        Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(188, Byte), Integer), CType(CType(212, Byte), Integer))
         Me.Panel4.Controls.Add(Me.btnDesarrolladores)
         Me.Panel4.Location = New System.Drawing.Point(9, 52)
         Me.Panel4.Name = "Panel4"
@@ -227,6 +255,7 @@ Partial Class Form1
         '
         'ComboBoxTratamientos
         '
+        Me.ComboBoxTratamientos.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(188, Byte), Integer), CType(CType(212, Byte), Integer))
         Me.ComboBoxTratamientos.FormattingEnabled = True
         Me.ComboBoxTratamientos.Items.AddRange(New Object() {"Tratamiento A", "Tratamiento B", "Tratamiento C"})
         Me.ComboBoxTratamientos.Location = New System.Drawing.Point(9, 24)
@@ -241,13 +270,13 @@ Partial Class Form1
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(213, 13)
         Me.Label6.TabIndex = 15
-        Me.Label6.Text = "5. Escoga El Tipo De Tratamiento Deseado"
+        Me.Label6.Text = "6. Escoga El Tipo De Tratamiento Deseado"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(63, Byte), Integer), CType(CType(81, Byte), Integer), CType(CType(181, Byte), Integer))
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(188, Byte), Integer), CType(CType(212, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(385, 335)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
@@ -275,7 +304,7 @@ Partial Class Form1
     Friend WithEvents Label1 As Label
     Friend WithEvents NumericUpDownEdad As NumericUpDown
     Friend WithEvents Label2 As Label
-    Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents DateTimePickerEntrada As DateTimePicker
     Friend WithEvents Label3 As Label
     Friend WithEvents MaskedTextBox1 As MaskedTextBox
     Friend WithEvents Label4 As Label
@@ -289,4 +318,6 @@ Partial Class Form1
     Friend WithEvents ComboBoxTratamientos As ComboBox
     Friend WithEvents Panel4 As Panel
     Friend WithEvents btnDesarrolladores As Button
+    Friend WithEvents DateTimePickerSalida As DateTimePicker
+    Friend WithEvents Label7 As Label
 End Class
