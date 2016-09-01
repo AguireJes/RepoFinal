@@ -257,7 +257,7 @@ Partial Class Form1
         '
         Me.ComboBoxTratamientos.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(188, Byte), Integer), CType(CType(212, Byte), Integer))
         Me.ComboBoxTratamientos.FormattingEnabled = True
-        Me.ComboBoxTratamientos.Items.AddRange(New Object() {"Tratamiento A", "Tratamiento B", "Tratamiento C"})
+        Me.ComboBoxTratamientos.Items.AddRange(New Object() {"A", "B", "C"})
         Me.ComboBoxTratamientos.Location = New System.Drawing.Point(9, 24)
         Me.ComboBoxTratamientos.Name = "ComboBoxTratamientos"
         Me.ComboBoxTratamientos.Size = New System.Drawing.Size(198, 21)

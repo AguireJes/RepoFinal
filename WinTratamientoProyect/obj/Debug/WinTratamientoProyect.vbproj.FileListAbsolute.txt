@@ -15,3 +15,15 @@ C:\Users\Jesus\Documents\Visual Studio 2015\Projects\WinTratamientoProyect\WinTr
 C:\Users\Jesus\Documents\Visual Studio 2015\Projects\WinTratamientoProyect\WinTratamientoProyect\bin\Debug\WinTratamientoProyect.application
 C:\Users\Jesus\Documents\Visual Studio 2015\Projects\WinTratamientoProyect\WinTratamientoProyect\obj\Debug\WinTratamientoProyect.exe.manifest
 C:\Users\Jesus\Documents\Visual Studio 2015\Projects\WinTratamientoProyect\WinTratamientoProyect\obj\Debug\WinTratamientoProyect.application
+C:\Users\Alexis Sniffer\Documents\RepoFinal\WinTratamientoProyect\obj\Debug\WinTratamientoProyect.Form1.resources
+C:\Users\Alexis Sniffer\Documents\RepoFinal\WinTratamientoProyect\obj\Debug\WinTratamientoProyect.Form2.resources
+C:\Users\Alexis Sniffer\Documents\RepoFinal\WinTratamientoProyect\obj\Debug\WinTratamientoProyect.Form3.resources
+C:\Users\Alexis Sniffer\Documents\RepoFinal\WinTratamientoProyect\obj\Debug\WinTratamientoProyect.Resources.resources
+C:\Users\Alexis Sniffer\Documents\RepoFinal\WinTratamientoProyect\obj\Debug\WinTratamientoProyect.vbproj.GenerateResource.Cache
+C:\Users\Alexis Sniffer\Documents\RepoFinal\WinTratamientoProyect\obj\Debug\WinTratamientoProyect.exe
+C:\Users\Alexis Sniffer\Documents\RepoFinal\WinTratamientoProyect\obj\Debug\WinTratamientoProyect.xml
+C:\Users\Alexis Sniffer\Documents\RepoFinal\WinTratamientoProyect\obj\Debug\WinTratamientoProyect.pdb
+C:\Users\Alexis Sniffer\Documents\RepoFinal\WinTratamientoProyect\bin\Debug\WinTratamientoProyect.exe.config
+C:\Users\Alexis Sniffer\Documents\RepoFinal\WinTratamientoProyect\bin\Debug\WinTratamientoProyect.exe
+C:\Users\Alexis Sniffer\Documents\RepoFinal\WinTratamientoProyect\bin\Debug\WinTratamientoProyect.pdb
+C:\Users\Alexis Sniffer\Documents\RepoFinal\WinTratamientoProyect\bin\Debug\WinTratamientoProyect.xml
