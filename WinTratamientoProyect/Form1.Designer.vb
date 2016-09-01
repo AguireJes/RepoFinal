@@ -38,13 +38,13 @@ Partial Class Form1
         Me.RadioButtonHomb = New System.Windows.Forms.RadioButton()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.DateTimePickerSalida = New System.Windows.Forms.DateTimePicker()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.btnDesarrolladores = New System.Windows.Forms.Button()
         Me.ComboBoxTratamientos = New System.Windows.Forms.ComboBox()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.DateTimePickerSalida = New System.Windows.Forms.DateTimePicker()
         CType(Me.NumericUpDownEdad, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBoxSexo.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -96,9 +96,11 @@ Partial Class Form1
         Me.NumericUpDownEdad.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(188, Byte), Integer), CType(CType(212, Byte), Integer))
         Me.NumericUpDownEdad.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.NumericUpDownEdad.Location = New System.Drawing.Point(6, 104)
+        Me.NumericUpDownEdad.Minimum = New Decimal(New Integer() {18, 0, 0, 0})
         Me.NumericUpDownEdad.Name = "NumericUpDownEdad"
         Me.NumericUpDownEdad.Size = New System.Drawing.Size(84, 20)
         Me.NumericUpDownEdad.TabIndex = 8
+        Me.NumericUpDownEdad.Value = New Decimal(New Integer() {18, 0, 0, 0})
         '
         'Label2
         '
@@ -203,6 +205,23 @@ Partial Class Form1
         Me.Panel2.Size = New System.Drawing.Size(162, 174)
         Me.Panel2.TabIndex = 16
         '
+        'DateTimePickerSalida
+        '
+        Me.DateTimePickerSalida.CalendarMonthBackground = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(188, Byte), Integer), CType(CType(212, Byte), Integer))
+        Me.DateTimePickerSalida.Location = New System.Drawing.Point(9, 89)
+        Me.DateTimePickerSalida.Name = "DateTimePickerSalida"
+        Me.DateTimePickerSalida.Size = New System.Drawing.Size(142, 20)
+        Me.DateTimePickerSalida.TabIndex = 14
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(6, 72)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(96, 13)
+        Me.Label7.TabIndex = 13
+        Me.Label7.Text = "4. Fecha de Salida"
+        '
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
@@ -252,23 +271,6 @@ Partial Class Form1
         Me.Label6.Size = New System.Drawing.Size(213, 13)
         Me.Label6.TabIndex = 15
         Me.Label6.Text = "6. Escoga El Tipo De Tratamiento Deseado"
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(6, 72)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(96, 13)
-        Me.Label7.TabIndex = 13
-        Me.Label7.Text = "4. Fecha de Salida"
-        '
-        'DateTimePickerSalida
-        '
-        Me.DateTimePickerSalida.CalendarMonthBackground = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(188, Byte), Integer), CType(CType(212, Byte), Integer))
-        Me.DateTimePickerSalida.Location = New System.Drawing.Point(9, 89)
-        Me.DateTimePickerSalida.Name = "DateTimePickerSalida"
-        Me.DateTimePickerSalida.Size = New System.Drawing.Size(142, 20)
-        Me.DateTimePickerSalida.TabIndex = 14
         '
         'Form1
         '

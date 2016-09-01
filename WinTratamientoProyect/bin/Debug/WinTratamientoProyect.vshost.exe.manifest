@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WinTratamientoProyect.exe" size="80848">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WinTratamientoProyect.exe" size="81872">
       <assemblyIdentity name="WinTratamientoProyect" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>kJBhjAyCEudL7npx5Id1bPwEnYRAoS11yB4duqTN+so=</dsig:DigestValue>
+        <dsig:DigestValue>ZfUAW2u6kQCd2NsaGuj3WKhrbdbDLGAOBZ/ZyDYq7b4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
