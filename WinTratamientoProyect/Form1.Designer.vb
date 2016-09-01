@@ -53,6 +53,7 @@ Partial Class Form1
         '
         'btncomenzar
         '
+        Me.btncomenzar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
         Me.btncomenzar.Font = New System.Drawing.Font("Ebrima", 8.25!)
         Me.btncomenzar.Location = New System.Drawing.Point(155, 300)
         Me.btncomenzar.Name = "btncomenzar"
@@ -72,6 +73,7 @@ Partial Class Form1
         '
         'TextBoxNombre
         '
+        Me.TextBoxNombre.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(188, Byte), Integer), CType(CType(212, Byte), Integer))
         Me.TextBoxNombre.Location = New System.Drawing.Point(6, 35)
         Me.TextBoxNombre.MaxLength = 20
         Me.TextBoxNombre.Name = "TextBoxNombre"
@@ -89,6 +91,8 @@ Partial Class Form1
         '
         'NumericUpDownEdad
         '
+        Me.NumericUpDownEdad.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(188, Byte), Integer), CType(CType(212, Byte), Integer))
+        Me.NumericUpDownEdad.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.NumericUpDownEdad.Location = New System.Drawing.Point(6, 104)
         Me.NumericUpDownEdad.Name = "NumericUpDownEdad"
         Me.NumericUpDownEdad.Size = New System.Drawing.Size(84, 20)
@@ -105,6 +109,7 @@ Partial Class Form1
         '
         'DateTimePicker1
         '
+        Me.DateTimePicker1.CalendarMonthBackground = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(188, Byte), Integer), CType(CType(212, Byte), Integer))
         Me.DateTimePicker1.Location = New System.Drawing.Point(6, 35)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(145, 20)
@@ -121,7 +126,7 @@ Partial Class Form1
         '
         'MaskedTextBox1
         '
-        Me.MaskedTextBox1.BackColor = System.Drawing.Color.Lavender
+        Me.MaskedTextBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(188, Byte), Integer), CType(CType(212, Byte), Integer))
         Me.MaskedTextBox1.Location = New System.Drawing.Point(6, 104)
         Me.MaskedTextBox1.Name = "MaskedTextBox1"
         Me.MaskedTextBox1.Size = New System.Drawing.Size(145, 20)
@@ -138,7 +143,7 @@ Partial Class Form1
         '
         'GroupBoxSexo
         '
-        Me.GroupBoxSexo.BackColor = System.Drawing.Color.Lavender
+        Me.GroupBoxSexo.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(188, Byte), Integer), CType(CType(212, Byte), Integer))
         Me.GroupBoxSexo.Controls.Add(Me.RadioButtonMuj)
         Me.GroupBoxSexo.Controls.Add(Me.RadioButtonHomb)
         Me.GroupBoxSexo.Location = New System.Drawing.Point(245, 24)
@@ -172,7 +177,7 @@ Partial Class Form1
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(140, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
         Me.Panel1.Controls.Add(Me.Label5)
         Me.Panel1.Controls.Add(Me.TextBoxNombre)
         Me.Panel1.Controls.Add(Me.Label1)
@@ -184,7 +189,7 @@ Partial Class Form1
         '
         'Panel2
         '
-        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(140, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
         Me.Panel2.Controls.Add(Me.Label2)
         Me.Panel2.Controls.Add(Me.DateTimePicker1)
         Me.Panel2.Controls.Add(Me.Label3)
@@ -196,7 +201,7 @@ Partial Class Form1
         '
         'Panel3
         '
-        Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(140, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
         Me.Panel3.Controls.Add(Me.Panel4)
         Me.Panel3.Controls.Add(Me.ComboBoxTratamientos)
         Me.Panel3.Controls.Add(Me.Label6)
@@ -209,7 +214,7 @@ Partial Class Form1
         '
         'Panel4
         '
-        Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(207, Byte), Integer), CType(CType(216, Byte), Integer), CType(CType(220, Byte), Integer))
+        Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(188, Byte), Integer), CType(CType(212, Byte), Integer))
         Me.Panel4.Controls.Add(Me.btnDesarrolladores)
         Me.Panel4.Location = New System.Drawing.Point(9, 52)
         Me.Panel4.Name = "Panel4"
@@ -227,6 +232,7 @@ Partial Class Form1
         '
         'ComboBoxTratamientos
         '
+        Me.ComboBoxTratamientos.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(188, Byte), Integer), CType(CType(212, Byte), Integer))
         Me.ComboBoxTratamientos.FormattingEnabled = True
         Me.ComboBoxTratamientos.Items.AddRange(New Object() {"Tratamiento A", "Tratamiento B", "Tratamiento C"})
         Me.ComboBoxTratamientos.Location = New System.Drawing.Point(9, 24)
@@ -247,7 +253,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(63, Byte), Integer), CType(CType(81, Byte), Integer), CType(CType(181, Byte), Integer))
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(188, Byte), Integer), CType(CType(212, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(385, 335)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
